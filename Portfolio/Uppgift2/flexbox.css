@@ -1,0 +1,108 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    align-items: stretch;
+    height: 100vh;
+}
+
+#Titel {
+    background-color: rgb(237, 193, 245);
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+#undertitel {
+    background-color: rgb(120, 147, 200);
+    display: flex;
+    flex: 1 1 auto;
+}
+
+#vänster {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(120, 247, 200);
+    flex: 0 0 175px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#om1 {
+    font-size: 20px;
+    position: static;
+}
+
+#bakgrund1 {
+    font-size: 20px;
+}
+
+#mitten {
+    border: rgb(0, 0, 0) solid 2px;
+    text-align: center;
+    background-color: rgb(25, 0, 255);
+    flex: 1 1 auto;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+img {
+   float: left; 
+   border-radius: 40px;
+   width: 425px;
+   height: 425px;
+   margin: 15px;
+}
+
+#om2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#bakgrund2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.huvudtext {
+    font-size: 20px;
+    color: rgb(200, 255, 0);
+}
+
+
+#höger {
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: rgb(120, 247, 200);
+    flex: 0 0 250px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#melvin {
+    position: static;
+    font-size: 20px;
+}
+
+#watermelon {
+    font-size: 20px;
+    position: static;
+}
+
+#portfolio {
+    font-size: 20px;
+    position: static;
+}

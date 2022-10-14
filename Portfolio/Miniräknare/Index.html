@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="calc.css">
+    <title>Miniräknare</title>
+</head>
+<body class="container">
+    <div class="main">
+        <div class="calc-screen grid-col-span-4" id="calc-screen"></div>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('0');">0</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('1');">1</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('2');">2</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('3');">3</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('4');">4</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('5');">5</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('6');">6</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('7');">7</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('8');">8</button>
+        <button type="button" class="btn-digit" onpointerdown="addDigit('9');">9</button>
+        <button type="button" id="btn-calc" onclick="btnCalc();">Beräkna</button>
+    </div>
+
+</body>
+</html>
